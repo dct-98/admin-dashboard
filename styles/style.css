@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+/* BASE STYLES */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.nav-link * {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+/* LAYOUT */
+
+
+/* ADDITIONAL STYLES */
+
+.nav-icon {
+    width: 1.5rem;
+    color: black;
+    margin-right: 1rem;
+}
